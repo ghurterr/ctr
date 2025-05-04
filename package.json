@@ -1,0 +1,24 @@
+{
+  "name": "render-rate-limiter",
+  "version": "1.0.0",
+  "description": "Rate limiter application for Render.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=16.0.0" // Specify a Node.js version compatible with Render
+  },
+  "keywords": [
+    "rate-limit",
+    "render",
+    "express",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2" // Using Express ~4.18. Adjust if needed
+  }
+}
